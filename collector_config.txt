@@ -1,0 +1,53 @@
+# System Collector Configuration
+# Format: key=value or JSON (below)
+
+# Simple configuration (uncomment and modify):
+#output_directory=
+#max_user_names=500
+#do_reg_export=False
+
+# Logs configuration:
+#logs.system_info=True
+#logs.os_edition=True
+#logs.users_list=True
+#logs.user_detailed=True
+#logs.user_groups_sid_rid=True
+#logs.pc_characteristics=True
+#logs.installed_programs=True
+#logs.processes_detailed=True
+#logs.network_adapters=True
+#logs.services_info=True
+#logs.hotfixes_list=True
+#logs.environment_vars=True
+#logs.registry_export=False
+#logs.system_uptime=True
+#logs.locale_info=True
+#logs.memory_detailed=True
+#logs.disk_detailed=True
+
+
+# JSON configuration (alternative):
+#{
+    "output_directory": null,
+    "max_user_names": 500,
+    "do_reg_export": false,
+    "logs": {
+        "system_info": true,
+        "os_edition": true,
+        "users_list": true,
+        "user_detailed": true,
+        "user_groups_sid_rid": true,
+        "pc_characteristics": true,
+        "installed_programs": true,
+        "processes_detailed": true,
+        "network_adapters": true,
+        "services_info": true,
+        "hotfixes_list": true,
+        "environment_vars": true,
+        "registry_export": false,
+        "system_uptime": true,
+        "locale_info": true,
+        "memory_detailed": true,
+        "disk_detailed": true
+    }
+}
