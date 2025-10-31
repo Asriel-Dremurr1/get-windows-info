@@ -27,6 +27,7 @@ A comprehensive Windows system information collection tool that uses only Python
 
 ### 🛠️ **Software & Services**
 - Installed programs list
+- A separate program for analyzing the list of installed programs by keywords
 - Running processes with details
 - Windows services information
 - Installed updates and hotfixes
@@ -40,5 +41,3 @@ A comprehensive Windows system information collection tool that uses only Python
 ## Requirements
 - **OS**: Windows 7/8/10/11, Windows Server
 - **Permissions**: Standard user (some features require admin rights)
-
-### A separate program for analyzing the list of installed programs by keywords
